@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About me</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            width: 100%;
+            background-color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .header{
+            width: 100%;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #2980b9;
+            color: white;
+            font-weight: 700;
+            text-align: center
+        }
+        .head{
+            background-color: #95a5a6;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .image{
+            text-align: center;
+        }
+        .image img{
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 150px;
+        }
+        .name{
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.25em;
+        }
+        .job{
+            color: white;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .desc_line ul{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .desc_line ul li{
+            padding: 0;
+            display: inline-block;
+            width: 100%;
+            background: #2980b9;
+            color: white;
+            border: 2px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            text-align: center;
+        }
+        .desc{
+            margin: auto;
+        }
+        @media screen and (min-width: 800px) {
+            .desc_line ul{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .desc_line ul li {
+                float: left;
+                width: 33.33%;
+            }
+            .desc{
+                width: 800px;
+            }
+        }
+        .footer{
+            text-align: center;
+            padding: 2px;
+            font-size: 0.75em;
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">About me</div>
+    <div class="container">
+        <div class="head">
+            <div class="image">
+                <img src="img/profile_img3.jpeg" alt="Fajar Windhu Zulfikar">
+            </div>
+            <div class="name">
+                Fajar Windhu Zulfikar
+            </div>
+            <div class="job">
+                Junior Web Developer
+            </div>
+        </div>
+        <div class="desc_line">
+            <ul>
+                <li>
+                    STT Wastukancana Purwakarta
+                </li>
+                <li>
+                    Purwakarta, West Java
+                </li>
+                <li>
+                    fajarwindhuzulfikar@gmail.com
+                </li>
+            </ul>
+        </div>
+        <div class="desc">
+            <h2>Introduction</h2>
+            Hi, my name is Fajar Windhu Zulfikar, you can call me Fajar. I am 20 years old. I live in Purwakarta, West Java, Indonesia.
+            I have graduated from STT Wastukancana Purwakarta majoring in Informatics Engineering, and currently studying some courses in Dicoding too.
+            I like android apps programming, web programming, and other technology stuff.
+            <h2>You can also find me on</h2>
+            <a href="http://www.github.com/fajarwz" target="_blank">Github</a><br>
+            <a href="http://www.gitlab.com/fajarwz" target="_blank">Gitlab</a><br>
+            <a href="https://www.dicoding.com/users/436772" target="_blank">Dicoding</a><br>
+            <p></p>
+        </div>
+    </div>
+    <div class="footer">Fajar Windhu Zulfikar - 2019</div>
+</body>
+</html>
